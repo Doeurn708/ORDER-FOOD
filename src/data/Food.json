@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Spicy Pork Chili Dip",
+    "description": "Traditional Northern Thai dip made with minced pork, tomatoes, and chili pastes, served alongside crisp fresh vegetables.",
+    "price": 8.5,
+    "image": "https://images.unsplash.com/photo-1562967916-eb82221dfb92?w=500",
+    "category": "Appetizer"
+  },
+  {
+    "id": 2,
+    "name": "Crispy Deep-Fried Fish",
+    "description": "Perfectly golden fried fish scored beautifully and served with a tangy, spicy bird's eye chili fish sauce dipping mix.",
+    "price": 14.99,
+    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=500",
+    "category": "Seafood"
+  },
+  {
+    "id": 3,
+    "name": "Steamed Curry Fish Mousse",
+    "description": "Savory Thai curry red paste and fish souffle gently steamed inside custom-folded banana leaf cups, topped with coconut cream.",
+    "price": 11.25,
+    "image": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=500",
+    "category": "Main Course"
+  },
+  {
+    "id": 4,
+    "name": "Steamy Ramen Bliss 🍜✨",
+    "description": "Cozy up with a bowl of rich, savory ramen! 🍜 Loaded with noodles, veggies, and your fave toppings. Perfect for chilly days or when you need a comfort food fix.",
+    "price": 11.25,
+    "image": "https://i.pinimg.com/736x/50/6c/b0/506cb01bcac32279302e06a473d71cbb.jpg",
+    "category": "Main Course"
+  },
+  {
+    "id": 5,
+    "name": "Crack Burgers",
+    "description": "and your fave toppings. Perfect for chilly days or when you need a comfort food fix.",
+    "price": 10.25,
+    "image": "https://i.pinimg.com/1200x/d5/d4/bb/d5d4bb7e8a83e3cc20f3383e4ca3e5c7.jpg",
+    "category": "Main Course"
+  },
+  {
+    "id": 6,
+    "name": "Bay Chaa",
+    "description": "Cozy up with a bowl of rich, savory ramen! 🍜 Loaded with noodles, veggies, and your fave toppings. Perfect for chilly days or when you need a comfort food fix.",
+    "price": 11,
+    "image": "https://i.pinimg.com/736x/7e/bb/8a/7ebb8a5438d85aba9fc382a8efb6f258.jpg",
+    "category": "Main Course"
+  },
+  {
+    "id": 7,
+    "name": "Cheesy Pizza Perfection ",
+    "description": "Hot, cheesy, and perfectly baked — the kind of pizza everyone in America is craving right now. If you love fast food and satisfying food videos, this one’s for you.",
+    "price": 12.25,
+    "image": "https://i.pinimg.com/736x/55/9e/9a/559e9ad7a346026d19e8d57204b4385b.jpg",
+    "category": "Main Course"
+  },
+  {
+    "id": 8,
+    "name": "Bai Cha Kaphrao",
+    "description": "aromatic minced meat stir-fry packed with fresh herbs, served alongside a perfect mound of steamed white rice.",
+    "price": 9.25,
+    "image": "https://i.pinimg.com/1200x/6b/c0/b4/6bc0b41dda8eebd572495020c7d5da15.jpg",
+    "category": "Main Course"
+  },
+  {
+    "id": 9,
+    "name": "Indonesian Grilled Meat Skewers",
+    "description": "Sate Kambing/Ayam (Indonesian skewered grilled meat), beautifully presented on a traditional wooden platter with rice and condiments.",
+    "price": 5,
+    "image": "https://i.pinimg.com/736x/ad/e7/8c/ade78cff05e02379ed3095de0249ad4a.jpg",
+    "category": "Main Course"
+  },
+  {
+    "id": 10,
+    "name": "Chrok Sách Chrouk Goong",
+    "description": "seafood and meat served with a mountain of fresh greens and a fiery dipping sauce.",
+    "price": 8,
+    "image": "https://i.pinimg.com/736x/3d/13/4f/3d134fb0ef5bd279723ae6bcc71dd9b0.jpg",
+    "category": "Main Course"
+  },
+  {
+    "id": 11,
+    "name": "Grilled Pork Belly Wrap Platter",
+    "description": "single-serving platter featuring grilled pork belly, mushrooms, and garlic, designed to be eaten as fresh lettuce wraps",
+    "price": 12,
+    "image": "https://i.pinimg.com/1200x/ed/45/77/ed4577ccc1d1f753bb8bc0e5e07665d3.jpg",
+    "category": "Main Course"
+  },
+  {
+    "id": 12,
+    "name": "Cambodian Shaking Beef",
+    "description": "This is the absolute king of Cambodian comfort foods!",
+    "price": 4,
+    "image": "https://i.pinimg.com/736x/0c/12/69/0c12692da7a24dd544740b5d71b5db47.jpg",
+    "category": "Main Course"
+  }
+]
