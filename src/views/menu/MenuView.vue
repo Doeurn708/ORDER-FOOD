@@ -8,11 +8,12 @@
         <h1 class="text-3xl font-black text-gray-800">Food Ordering Panel</h1>
         
         <button 
-          @click="showCart = !showCart"
+          @click="showCart = !showCart;
+          router.push('/cart')"
           class="bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-full font-bold shadow flex items-center gap-2 transition-all active:scale-95"
         >
           <i class="fa-solid fa-cart-shopping"></i>
-          <span>Cart ({{ totalItemsCount }})</span>
+          <span>Cart ({{cartStore.totalItemsCount }})</span>
         </button>
       </div>
 
@@ -123,6 +124,11 @@ import FoodCard from '@/components/FoodCard.vue'
 import SlideBar from '@/components/SlideBar.vue'
 
 import Food from '@/data/Food.json'   
+import { useCartStore } from '@/stores/cart'
+import { useRouter } from 'vue-router'
+
+const cartStore=useCartStore()
+const router =useRouter()
 
 const showCart = ref(false)
 const cart = ref([])
@@ -130,6 +136,10 @@ const cart = ref([])
 
 const searchQuery = ref('')
 const selectedCategory = ref('All')
+
+const handleAddToCart = (foodItem) => {
+  cartStore.addToCart(foodItem)
+}
 
 
 const categories = computed(() => {
@@ -156,14 +166,14 @@ const totalPrice = computed(() =>
 )
 
 // Cart Methods
-const handleAddToCart = (foodItem) => {
-  const existing = cart.value.find(item => item.id === foodItem.id)
-  if (existing) {
-    existing.quantity++
-  } else {
-    cart.value.push({ ...foodItem, quantity: 1 })
-  }
-}
+// const handleAddToCart = (foodItem) => {
+//   const existing = cart.value.find(item => item.id === foodItem.id)
+//   if (existing) {
+//     existing.quantity++
+//   } else {
+//     cart.value.push({ ...foodItem, quantity: 1 })
+//   }
+// }
 
 const changeQuantity = (id, amount) => {
   const item = cart.value.find(i => i.id === id)
