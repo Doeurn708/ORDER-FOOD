@@ -4,12 +4,12 @@
       <i class="fa-solid" :class="isOpen ? 'fa-xmark' : 'fa-bars'"></i>
     </div>
     
-    <h1 class="text-2xl font-bold text-white">Food Order</h1>
+    <h1 class="text-3xl  font-bold text-sky-400 logo">Food Order</h1>
     
-    <div class="md:flex gap-4 hidden text-lg px-6 items-center" >
-      <RouterLink to="/" class="hover:text-amber-200" active-class="text-amber-300 underline">Menu</RouterLink>
-      <RouterLink to="/cart" class="hover:text-amber-200" active-class="text-amber-300 underline">Cart</RouterLink>
-      <RouterLink to="/orders" class="hover:text-amber-200" active-class="text-amber-300 underline">Orders</RouterLink>
+    <div class="md:flex gap-9 font-semibold text-white hidden text-xl items-center" >
+      <RouterLink to="/" class="hover:text-amber-200 " active-class="text-amber-900  underline">Menu</RouterLink>
+      <RouterLink to="/cart" class="hover:text-amber-200" active-class="text-amber-900 underline">Cart</RouterLink>
+      <RouterLink to="/orders" class="hover:text-amber-200" active-class="text-amber-900 underline">Orders</RouterLink>
     </div>
     
     <div class="text-xl">

@@ -1,1 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import "tailwindcss";
+
+.logo{
+    font-family: "Berkshire Swash", serif;
+}
