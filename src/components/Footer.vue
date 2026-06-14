@@ -14,7 +14,11 @@
                 <path d="M9 3L13.5 7.5L9 12L4.5 7.5L9 3Z" fill="#1c1917" opacity="0.5"/>
               </svg>
             </div>
+<<<<<<< Updated upstream
             <span class="text-white text-xl font-semibold tracking-tight">Meridian</span>
+=======
+            <span class=" text-xl font-semibold tracking-tight logo text-sky-500">Food Order</span>
+>>>>>>> Stashed changes
           </div>
 
           <p class="text-sm text-zinc-400 leading-relaxed max-w-xs">
