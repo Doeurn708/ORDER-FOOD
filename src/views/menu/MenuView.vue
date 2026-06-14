@@ -31,7 +31,7 @@
               placeholder="Search dishes..."
               class="w-full pl-12 pr-4 py-3 bg-white border border-gray-200 rounded-2xl focus:outline-none focus:border-amber-500 shadow-sm"
             />
-            <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"></i>
+            <i class="fa-solid fa-magnifying-glass absolute left-4 top-[70%] -translate-y-1/2 text-gray-400"></i>
           </div>
 
           <!-- CATEGORY -->
@@ -53,7 +53,7 @@
         </div>
 
         <!-- FOOD GRID -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
           <FoodCard
             v-for="dish in filteredFood"
             :key="dish.id"
@@ -71,7 +71,6 @@
       </div>
     </div>
 
-    <!-- CART SIDEBAR (Optional: ប្រសិនបើចង់បើកមើល Sidebar ជំនួសឱ្យការទៅទំព័រ /cart) -->
     <div
       v-if="showCart"
       class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex justify-end"
