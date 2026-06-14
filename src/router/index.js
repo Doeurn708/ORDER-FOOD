@@ -1,4 +1,5 @@
 import MenuView from "@/views//menu/MenuView.vue";
+import LoginAcc from "@/views/auth/LoginAcc.vue";
 import CartView from "@/views/cart/CartView.vue";
 import ContactRiderView from "@/views/order/ContactRiderView.vue";
 import OrderTrackingView from "@/views/order/OrderTrackingView.vue";
@@ -13,6 +14,10 @@ const routes = [
   {
     path: "/cart",
     component: CartView,
+  },
+  {
+    path: "/login",
+    component: LoginAcc,
   },
   {
     path: "/orders",

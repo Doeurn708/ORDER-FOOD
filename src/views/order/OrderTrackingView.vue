@@ -22,7 +22,7 @@
     <div v-else class="min-h-screen">
       <!-- Header -->
       <div
-        class="sticky top-0 z-50 backdrop-blur-md bg-white/80 border-b border-gray-200"
+        class="fixed w-full top-0 z-50 backdrop-blur-md bg-amber-500 border-b border-gray-200"
       >
         <div
           class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
@@ -35,7 +35,7 @@
             <span>Back</span>
           </RouterLink>
 
-          <h1 class="text-xl md:text-2xl font-bold tracking-wide">
+          <h1 class="text-xl md:text-2xl text-sky-500 font-bold tracking-wide">
             Order Tracking
           </h1>
 
@@ -216,8 +216,8 @@
               <div class="space-y-2 text-gray-600 text-sm">
                 <p><b>Name:</b> {{ order.customer?.name }}</p>
                 <p><b>Phone:</b> {{ order.customer?.phone }}</p>
-                <p><b>Email:</b> {{ order.customer?.email }}</p>
-                <p><b>Telegram:</b> {{ order.customer?.telegram }}</p>
+                <!-- <p><b>Email:</b> {{ order.customer?.email }}</p>
+                <p><b>Telegram:</b> {{ order.customer?.telegram }}</p> -->
                 <p><b>Address:</b> {{ order.customer?.address }}</p>
               </div>
             </div>

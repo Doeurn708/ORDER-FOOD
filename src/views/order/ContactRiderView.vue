@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-gray-100">
     <!-- Sticky Header -->
     <div
-      class="sticky top-0 z-50 backdrop-blur-md bg-white/80 border-b border-gray-200"
+      class="fixed w-full top-0 z-50 backdrop-blur-md bg-white/80 border-b border-gray-200"
     >
       <div
         class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
@@ -161,9 +161,9 @@ import {
 } from "lucide-vue-next";
 
 const rider = ref({
-  name: "Sok Dara",
+  name: "Jame Sok",
   phone: "+85512345678",
-  vehicle: "Honda Click 125i",
+  vehicle: "Honda Click 125c",
 });
 
 const status = ref("On the way");

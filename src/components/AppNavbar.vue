@@ -12,9 +12,9 @@
       <RouterLink to="/orders" class="hover:text-amber-200" active-class="text-amber-900 underline">Orders</RouterLink>
     </div>
     
-    <div class="text-xl">
+    <RouterLink to="/login" class="text-xl">
       <i class="fa-solid fa-user"></i>
-    </div>
+    </RouterLink>
   </nav>
 
   <div class="h-16"></div>

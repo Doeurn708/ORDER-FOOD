@@ -1,7 +1,7 @@
 <template>
   <!-- Sticky Header -->
   <div
-    class="sticky top-0 z-50 backdrop-blur-md bg-white/80 border-b border-gray-200"
+    class="fixed top-0 w-full z-50 backdrop-blur-md bg-amber-500 border-b border-gray-200"
   >
     <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
       <RouterLink
@@ -12,7 +12,7 @@
         <span>Back</span>
       </RouterLink>
 
-      <h1 class="text-xl md:text-2xl font-bold tracking-wide">
+      <h1 class="text-xl md:text-2xl text-sky-400 font-bold tracking-wide">
         Shopping Cart
       </h1>
 
@@ -24,9 +24,9 @@
     </div>
   </div>
 
-  <div class="w-[90%] mx-auto py-8 grid grid-cols-1 lg:grid-cols-3 gap-6">
+  <div class="w-[90%] m-auto py-8 items-center grid grid-cols-1 lg:grid-cols-3 gap-6">
     <!-- LEFT: CART ITEMS -->
-    <div class="lg:col-span-2">
+    <div class="lg:col-span-3">
       <div
         v-for="item in cartStore.items"
         :key="item.id"
@@ -74,9 +74,10 @@
         Your cart is empty.
       </div>
     </div>
+   
 
     <!-- RIGHT: CHECKOUT FORM -->
-    <div class="bg-white rounded-xl shadow p-6 h-fit">
+    <!-- <div class="bg-white rounded-xl shadow p-6 h-fit">
       <h2 class="text-lg font-bold mb-4">Customer Information</h2>
 
       <div class="space-y-3">
@@ -85,10 +86,10 @@
         <input v-model="form.email" placeholder="Email Address" class="input" />
         <input v-model="form.telegram" placeholder="Telegram Username" class="input" />
         <input v-model="form.address" placeholder="Delivery Address" class="input" />
-      </div>
+      </div> -->
 
       <!-- SUMMARY -->
-      <div class="mt-6 border-t pt-4">
+      <!-- <div class="mt-6 border-t pt-4">
         <p class="text-xl font-bold">
           Total:
           {{ cartStore.totalPrice ? cartStore.totalPrice.toFixed(2) : "0.00" }}
@@ -101,7 +102,11 @@
           Place Order
         </button>
       </div>
-    </div>
+    </div> -->
+    <h1 class="text-center font-bold text-2xl text-sky-400">Order Now</h1> 
+    <div class="m-auto w-full flex justify-center lg:ml-[110%]">    
+         <RouterLink to="/login" class="w-fit bg-amber-500 h-fit p-2 text-white rounded-xl hover:bg-transparent hover:border hover:text-black duration-700 hover:scale-95 hover:shadow-2xl">Place order</RouterLink>     
+     </div>
   </div>
 </template>
 
