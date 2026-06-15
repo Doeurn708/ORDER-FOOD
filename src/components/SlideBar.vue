@@ -1,5 +1,5 @@
 <template>
-    <div class="h-140 bg-zinc-700">
+    <div class="md:h-140 h-100 bg-zinc-700">
           <swiper
     :spaceBetween="0"
     :centeredSlides="true"
