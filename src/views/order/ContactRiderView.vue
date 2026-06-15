@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-gray-100">
     <!-- Sticky Header -->
     <div
-      class="fixed w-full top-0 z-50 backdrop-blur-md bg-white/80 border-b border-gray-200"
+      class="fixed w-full top-0 z-50 backdrop-blur-md bg-amber-500 border-b border-gray-200"
     >
       <div
         class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
@@ -17,7 +17,7 @@
         </RouterLink>
 
         <!-- Title -->
-        <h1 class="text-xl md:text-2xl font-bold tracking-wide">
+        <h1 class="text-xl md:text-2xl text-sky-500 font-bold tracking-wide">
           Contact Rider
         </h1>
 
@@ -25,7 +25,7 @@
         <div
           class="w-10 h-10 rounded-xl border border-gray-200 flex items-center justify-center"
         >
-          <Bike class="w-5 h-5 text-amber-500" />
+          <Bike class="w-5 h-5 text-white" />
         </div>
       </div>
     </div>
