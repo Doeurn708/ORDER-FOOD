@@ -11,9 +11,9 @@
       </div>
 
       <div class="space-y-4">
-        <input v-model="form.name" placeholder="ឈ្មោះពេញ" class="input" />
-        <input v-model="form.phone" placeholder="លេខទូរស័ព្ទ" class="input" />
-        <textarea v-model="form.address" placeholder="អាសយដ្ឋានដឹកជញ្ជូន" class="input resize-none" rows="2"></textarea>
+        <input v-model="form.name" placeholder="ឈ្មោះពេញ" type="text" class="input" />
+        <input v-model="form.phone" placeholder="លេខទូរស័ព្ទ" type="number" class="input" />
+        <textarea v-model="form.address" placeholder="អាសយដ្ឋានដឹកជញ្ជូន" type="text" class="input resize-none" rows="2"></textarea>
       </div>
 
       <div class="mt-8 pt-6 border-t border-gray-100">
